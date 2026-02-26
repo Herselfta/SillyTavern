@@ -58,3 +58,4 @@ yarn.lock
 *.code-workspace
 test-results/
 .stfolder/syncthing-folder-300064.txt
+/.stversions
