@@ -1,0 +1,23 @@
+// SillyTavern SyncTrayzor Ignore File
+
+// 不建议同步核心依赖（由于不同系统的构建可能不一致）
+/node_modules
+
+// 不建议同步Git信息，避免更新冲突
+/.git
+
+// 不建议同步缓存和临时构建文件夹
+/data/_cache
+/data/_webpack
+
+// 不建议同步应用的基础日志
+*.log
+/data/_storage
+
+// 可选：如果是跨设备（比如不同端口/IP），不同步 config.yaml
+// 如果你想要所有设备完全一致的配置，可以注释掉下面这行
+/config.yaml
+
+// 忽略各类系统自带的缩略图/缓存文件
+.DS_Store
+Thumbs.db
